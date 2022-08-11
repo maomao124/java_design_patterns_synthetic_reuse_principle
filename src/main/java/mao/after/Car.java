@@ -13,25 +13,47 @@ package mao.after;
  * Description(描述)： 无
  */
 
+
 public class Car
 {
+    /**
+     * The Color.
+     */
     protected Color color;
 
+    /**
+     * Instantiates a new Car.
+     *
+     * @param color the color
+     */
     public Car(Color color)
     {
         this.color = color;
     }
 
+    /**
+     * Gets color.
+     *
+     * @return the color
+     */
     public Color getColor()
     {
         return color;
     }
 
+    /**
+     * Sets color.
+     *
+     * @param color the color
+     */
     public void setColor(Color color)
     {
         this.color = color;
     }
 
+    /**
+     * Move.
+     */
     public void move()
     {
         System.out.println(color.getColor() + "汽车移动");
