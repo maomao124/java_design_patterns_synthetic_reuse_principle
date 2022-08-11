@@ -1,0 +1,24 @@
+package mao.after;
+
+/**
+ * Project name(项目名称)：java设计模式_合成复用原则
+ * Package(包名): mao.after
+ * Class(类名): Red
+ * Author(作者）: mao
+ * Author QQ：1296193245
+ * GitHub：https://github.com/maomao124/
+ * Date(创建日期)： 2022/8/11
+ * Time(创建时间)： 20:38
+ * Version(版本): 1.0
+ * Description(描述)： 无
+ */
+
+public class Red implements Color
+{
+
+    @Override
+    public String getColor()
+    {
+        return "红色";
+    }
+}
